@@ -82,7 +82,7 @@ header nav {
 }
 
 header nav a {
-    margin-left: 90px;
+    margin-left: 70px;
     text-decoration: none;
     color: black;
 }
@@ -159,4 +159,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.text-containers {
+    margin-bottom: 20px;
+    padding: 3% 1%;
+    padding-bottom: 20px;
+}
+
+section.top-contents .text-containers {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 3% 1%;
+    padding-bottom: 20px;
+}
+
+section.middle-contents .text-containers {
+    display: block;
+    float: left;
+    align-content: space-between;
+    width: 50%;
+    padding: 3% 1%;
+}
+.text-containers h2 {
+    margin-top: 20px;
+}
+
+
+.middle-contents .text-containers .containers {
+    border-bottom: 1px dashed black;
+    width: 375px;
+}
+
+.middle-contents .text-containers button.learn {
+    display: inline-block;
+    flex: wrap;
+    justify-content: space-around;
+    width: 50%;
+    padding: 3% 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.bottom-contents .text-container {
+    width: 100%;
+    padding: 3% 1%;
+    padding-bottom: 20px;
+    margin-top: 20px;
 }
