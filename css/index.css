@@ -71,6 +71,22 @@ p {
     margin: 0 auto;
 }
 
+header {
+    margin: 20px 0;
+    padding: 20px 0;
+}
+
+header nav {
+    margin: 20px 0;
+    display: inline-block;
+}
+
+header nav a {
+    margin-left: 70px;
+    text-decoration: none;
+    color: black;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -98,7 +114,7 @@ p {
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .middle-content .boxes .box {
@@ -143,4 +159,116 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.text-containers {
+    margin-bottom: 20px;
+    padding: 3% 1%;
+    padding-bottom: 20px;
+}
+
+section.top-contents .text-containers {
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+    padding: 3% 1%;
+    padding-bottom: 20px;
+}
+
+section.middle-contents .text-containers {
+    display: block;
+    float: left;
+    align-content: space-between;
+    width: 50%;
+    padding: 3% 1%;
+}
+.text-containers h2 {
+    margin-top: 20px;
+}
+
+
+.middle-contents .text-containers .containers {
+    border-bottom: 1px dashed black;
+    width: 375px;
+}
+
+.middle-contents .text-containers button.learn {
+    display: inline-block;
+    flex: wrap;
+    justify-content: space-around;
+    width: 50%;
+    padding: 3% 1%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    cursor: pointer;
+}
+
+.bottom-contents .text-container {
+    width: 100%;
+    padding: 3% 1%;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.services-container {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.services-header-img {
+    width: 100%;
+}
+
+.services-container header nav a {
+    margin-left: 50px;
+}
+
+div.main-contact section.contact-us {
+	padding: 30px;
+	background: white;
+	box-shadow: 0 4px 4px darkgray;
+	border: 0.5 solid lightgray;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+section.contact-us h1 {
+	font-size: 25px;
+}
+
+
+.main-contact .contact-form {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid darkgray;
+}
+
+.main-contact .contact-form .form {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-content: space-between;
+	padding: 20px;
+	background: rgb(230, 228, 228);
+	box-shadow: 0 4px 4px darkgray;
+	border: none;
+}
+
+.main-contact .contact-form #name, #email, #message {
+	width: 280px;
+}
+
+.main-contact .contact-form .form .submit-button {
+	background: white;
+	border: 1px solid darkgray;
+	border-radius: 3px;
+	cursor: pointer;
+	margin-top: 3px;
+}
+
+.main-contact .contact-form .form .submit-button:hover {
+	background: dodgerblue;
+	color: white;
 }
